@@ -1,0 +1,7 @@
+echo "# monushinde" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://www.codecademy.com/courses/learn-git/projects/f1-excursion
+git push -u origin main
